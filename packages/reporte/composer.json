@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "name": "sagicc/reporte",
+    "description": "Proyecto de reporte para Sagicc",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "TechniSupport SAS",
+            "email": "info@technisupport.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+       "psr-4": {
+          "Sagicc\\Reporte\\": "src/"
+       }
+    },
+    "require": {}
+}

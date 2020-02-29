@@ -1,5 +1,5 @@
 <?php
-
+use Faker\Factory;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +12,13 @@
 */
 
 Route::get('/', function () {
+/*    for( $i=0;$i<50;$i++ ) {
+        $faker = Factory::create(); 
+        $a = new App\Models\Prueba;
+        $a->nombre= $faker->name;
+        $a->edad= $faker->randomNumber(2);
+        $a->save();    
+}*/
     return view('welcome');
 });
 
